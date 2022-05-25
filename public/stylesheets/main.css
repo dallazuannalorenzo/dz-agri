@@ -55,6 +55,7 @@ h1 {
   width: 90%;
   max-width: 900px;
   margin: 0 auto;
+  color: #000000;
 }
 
 .container-nav {
@@ -99,8 +100,6 @@ nav a:focus {
   .container {
     text-align: center;
   }
-  p{}
-  a{}
   .container-nav {
     flex-direction: column;
   }
