@@ -95,11 +95,12 @@ nav a:focus {
   color: #fd5f00;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 500px) {
   .container {
     text-align: center;
   }
-
+  p{}
+  a{}
   .container-nav {
     flex-direction: column;
   }
