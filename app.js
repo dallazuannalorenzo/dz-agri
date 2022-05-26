@@ -3,9 +3,9 @@ const { auth } = require('express-openid-connect');
 const config = {
   authRequired: false,
   auth0Logout: true,
-  secret: '5e9eb80d79539383fc73eb7da30a606d8a46c4f8de761f56485052f421911abf',
+  secret: '53724bb4611e850b7f4c4f474c2e18f643d26ff07044e6d1fde05d6310242116',
   baseURL: 'https://dz-agri.herokuapp.com',
-  clientID: 'jd9sKpFSn7cCMjZLtiWA7LDoHD8PF3rb',
+  clientID: 'd9OWhdfOOhNVidyrmLhDbsNl8ObfWiFK',
   issuerBaseURL: 'https://dev-ylukm6pm.us.auth0.com'
 };
 
