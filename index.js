@@ -21,6 +21,7 @@ express()
       const results = { 'results': (result) ? result.rows : null};
       res.render('pages/db', results );
       client.release();
+      alert("funziona")
     } catch (err) {
       console.error(err);
       res.send("Error " + err);
